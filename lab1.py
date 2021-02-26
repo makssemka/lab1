@@ -9,7 +9,7 @@ def main():
         try:
             n = int(input('input number: '))
             break
-        except ValuError:
+        except ValueError:
             logging.info('Invalid type! Please try again.')
     i=0
     while i < n - 2:

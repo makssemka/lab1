@@ -19,7 +19,7 @@ def fibonachi(number):
 def main():
     while True:
         try:
-            number = int(input("input number: "))
+            number = int(input("Input number: "))
             break
         except ValueError:
             logging.error("Invalid type! Please try again.")
